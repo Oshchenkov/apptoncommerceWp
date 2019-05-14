@@ -76,3 +76,12 @@ add_action( 'wp_enqueue_scripts', 'load_scripts');
 
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
+
+
+// Create shortCode
+//[search]
+function search_func($atts)
+{
+  return get_search_form();
+}
+add_shortcode( 'search', 'search_func');
