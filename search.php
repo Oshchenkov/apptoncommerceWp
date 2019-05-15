@@ -10,7 +10,6 @@
 
 get_header();
 
-
 while (have_posts()) :
   the_post();
   $postID = get_the_ID();

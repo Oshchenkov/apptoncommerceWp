@@ -46,12 +46,12 @@
               <div class="mainFooter-navBlock__content">
                 <ul class="footerNav">
                   <li class="footerNav__li">
-                    <a href="http://apptoncommerce.com/faq/" class="footerNav__a">
+                    <a href="<?php echo get_home_url(); ?>/faq/" class="footerNav__a">
                       FAQ
                     </a><!-- /.footerNav__a -->
                   </li><!-- /.footerNav__li -->
                   <li class="footerNav__li">
-                    <a href="http://apptoncommerce.com/help-center/" class="footerNav__a">
+                    <a href="<?php echo get_home_url(); ?>/help-center/" class="footerNav__a">
                       Help center
                     </a><!-- /.footerNav__a -->
                   </li><!-- /.footerNav__li -->
@@ -67,12 +67,12 @@
               <div class="mainFooter-navBlock__content">
                 <ul class="footerNav">
                   <li class="footerNav__li">
-                    <a href="http://apptoncommerce.com/about/" class="footerNav__a">
+                    <a href="<?php echo get_home_url(); ?>/about/" class="footerNav__a">
                       About
                     </a><!-- /.footerNav__a -->
                   </li><!-- /.footerNav__li -->
                   <li class="footerNav__li">
-                    <a href="http://apptoncommerce.com/careers/" class="footerNav__a">
+                    <a href="<?php echo get_home_url(); ?>/careers/" class="footerNav__a">
                       Careers
                     </a><!-- /.footerNav__a -->
                   </li><!-- /.footerNav__li -->
